@@ -5,6 +5,7 @@ use App\Http\Controllers\User\UserController;
 use App\Http\Controllers\Stationmaster\StationmasterController;
 use App\Http\Controllers\eTabletController;
 use App\Http\Controllers\MLController;
+use App\Http\Controller\accomodationController;
 
 
 /*
@@ -65,3 +66,7 @@ Route::get('/accept/{station}',[eTabletController::class,'getRequest']);
 
 Route::post('/approve/{id}', [eTabletController::class, 'updateTablet']);
 
+
+Route::get('/accomodation', function () {
+    return view('accomodation');
+});
