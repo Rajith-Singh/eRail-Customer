@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->String('Hotel Name');
             $table->String('Rate');
-            $table->String('Nearest RAilway station');
-            $table->String('Distance from railway station');
+            $table->String('Station');
+            $table->String('Distance');
             $table->String('Is wifi available');
             $table->timestamps();
         });

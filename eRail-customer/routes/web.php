@@ -70,3 +70,13 @@ Route::post('/approve/{id}', [eTabletController::class, 'updateTablet']);
 Route::get('/accomodation', function () {
     return view('accomodation');
 });
+
+Route::get('/heart', function () {
+    return view('heartOfElla');
+});
+
+Route::get('/search-place',[accomodationController::class],'place');
+
+//added
+  //search places
+  Route::post('/search-places',[accomodationController::class, 'searchL'])->name('searchL');

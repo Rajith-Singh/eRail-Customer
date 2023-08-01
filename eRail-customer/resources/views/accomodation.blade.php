@@ -97,19 +97,82 @@
     <!-- Header End -->
 <center>
 <h1>Find Your Next Stay...</h1>
-<h2>Search low prices on hotels, homes and much more...</h2>
+<h2>Explore Sri Lanka...</h2>
 
 
 </br></br>
-<form action="" method="GET">
-        <input type="text" name="form-control border-0"  placeholder="Search Your destination">
+<form action="/search-places" method="POST",type="get",>
+        <input type="text" name="form-control border-0"  placeholder="Search Your destination" value="{{ isset($search) ? $search : ''}}">
         <button type="submit" class="btn btn-primary px-4">Search</button>
     </form>
-       
+</center>
 
- 
-
-    </Center>
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5">
+        <div class="container pt-5">
+            <div class="row align-items-end mb-4">
+                <!-- <div class="col-lg-6">
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
+                    <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
+                </div> -->
+            
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/hotel3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">8.5</h4>
+                            <small class="text-white text-uppercase">Very Good</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">ELLA</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Heaet of Ella, Sri Lanka</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">1.1 km from Ella</h5>
+                    <p class="mb-4">1.1 km from Ella <br> Situated in Ella, 5.6 km from Demodara Nine Arch Bridge, Heart of Ella features accommodation with a garden, free private parking, a terrace and a restaurant.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/heart">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">CGR IT</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
+                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
+                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">CGR IT</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
+                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
+                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
