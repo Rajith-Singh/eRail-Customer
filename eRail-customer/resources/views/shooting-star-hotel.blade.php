@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <title>eRail: An Automated Solution for Railway Conceptual Modernization and Expansion System </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -23,6 +24,26 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+
+
+    <Style>
+
+.hp-desc-highlighted {
+    font-weight: bold;
+}
+
+.b3efd73f69 {
+    white-space: pre-wrap;
+}
+
+.db29ecfbe2 {
+    font-family: var(--bui_font_body_2_font-family);
+    font-size: var(--bui_font_body_2_font-size);
+    font-weight: var(--bui_font_body_2_font-weight);
+    line-height: var(--bui_font_body_2_line-height);
+}
+    </Style>
 </head>
 
 <body>
@@ -95,20 +116,34 @@
         </div>
     </div>
     <!-- Header End -->
+
+
+
+
+
+
+
+    <br><br>
 <center>
-<h1>Find Your Next Stay...</h1>
-<h2>Explore Sri Lanka...</h2>
+<h2>Shooting Star Hotel</h2>
+<p class="mb-4">Ella - Halpe estate Road, Ella, Sri Lanka </p>
+
+<br>
+<p class="db29ecfbe2 b3efd73f69" align="center">Situated in Ella and only 4.3 km from Demodara Nine Arch Bridge, Shooting Star Homestay features accommodation with mountain views, free WiFi and free private parking. There is a private entrance at the homestay for the convenience of those who stay. The homestay has family rooms.</p>
+
+<span class="hp-desc-highlighted">Situated in Ella and only 4.3 km from Demodara Nine Arch Bridge, Shooting Star Homestay features accommodation with mountain views, free WiFi and free private parking. There is a private entrance at the homestay for the convenience of those who stay. The homestay has family rooms.</span>
+</br>
+<span class="hp-desc-highlighted" > The homestay offers a seating area with a flat-screen TV and a private bathroom with slippers, free toiletries and bidet. Every unit is fitted with a patio boasting an outdoor dining area. At the homestay, every unit comes with bed linen and towels.</span>                
+</br>
+<span class="hp-desc-highlighted" > À la carte and Asian breakfast options with warm dishes, local specialities and fruits are available each morning at the homestay.</span>                
+ 
 
 
-</br></br>
-<form action="/search-places" method="POST",type="get",>
-        <input type="text" name="form-control border-0"  placeholder="Search Your destination" value="{{ isset($search) ? $search : ''}}">
-        <button type="submit" class="btn btn-primary px-4">Search</button>
-    </form>
-</center>
+<h5 align="left"> Most popular Facilities</h5>
 
-    <!-- Blog Start -->
-    <div class="container-fluid pt-5">
+
+<!-- Blog Start -->
+ <div class="container-fluid pt-5">
         <div class="container pt-5">
             <div class="row align-items-end mb-4">
                 <!-- <div class="col-lg-6">
@@ -120,59 +155,79 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/hotel3.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">8.5</h4>
-                            <small class="text-white text-uppercase">*</small>
-                        </div>
+                        <img class="img-fluid rounded w-100" src="img/shoting-start-hotel2.jpg" alt="">
                     </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">ELLA</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Heaet of Ella, Sri Lanka</a>
-                    </div>
-                    <h5 class="font-weight-medium mb-2">1.1 km from Ella</h5>
-                    <p class="mb-4">1.1 km from Ella <br> Situated in Ella, 5.6 km from Demodara Nine Arch Bridge, Heart of Ella features accommodation with a garden, free private parking, a terrace and a restaurant.</p>
-                    <a class="btn btn-sm btn-primary py-2" href="/heart">Read More</a>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/shoting-star-hotel1.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">NEW</h4>
-                            <small class="text-white text-uppercase">*</small>
-                        </div>
+                        <img class="img-fluid rounded w-100" src="img/shoting-star-hotel3.jpg" alt="">
                     </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Shooting star Homestay</a>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/shoting-start-hotel4.jpg" alt="">
+                    </div>   
+                   
+                </div> -->
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/shoting-start-hotel5.jpg" alt="">
                     </div>
-                    <h5 class="font-weight-medium mb-2">2Km from Centre</h5>
-                    <p class="mb-4">Situated in Ella, 4.3 km from Demodara Nine Arch Bridge and 47 km from Hakgala Botanical Garden, Shooting Star Homestay features accommodation with free WiFi and a garden with a terrace and mountain...</p>
-                    <a class="btn btn-sm btn-primary py-2" href="/shoot">Read More</a>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
+                        <img class="img-fluid rounded w-100" src="img/shoting-star-hotel6.jpg" alt="">
                     </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">CGR IT</a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/heart8.jpg" alt="">
                     </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/heat9.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/heart2.jpg" alt="">
+                    </div>
+                    
+                   
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/heat11.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/heat4.jpg" alt="">
+                    </div>
+                    
+                   
                 </div>
             </div>
         </div>
     </div>
     <!-- Blog End -->
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
@@ -249,6 +304,8 @@
         </div>
     </div>
     <!-- Footer End -->
+
+
 
 
     <!-- Back to Top -->

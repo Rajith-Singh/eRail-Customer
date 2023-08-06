@@ -74,7 +74,9 @@ Route::get('/accomodation', function () {
 Route::get('/heart', function () {
     return view('heartOfElla');
 });
-
+Route::get('/shoot', function () {
+    return view('shooting-star-hotel');
+});
 Route::get('/search-place',[accomodationController::class],'place');
 
 //added

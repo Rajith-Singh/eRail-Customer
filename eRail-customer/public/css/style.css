@@ -10143,3 +10143,11 @@ h6,
     height: auto;
   }
 }
+
+
+.db29ecfbe2 {
+    font-family: var(--bui_font_body_2_font-family);
+    font-size: var(--bui_font_body_2_font-size);
+    font-weight: var(--bui_font_body_2_font-weight);
+    line-height: var(--bui_font_body_2_line-height);
+}
