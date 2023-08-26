@@ -99,12 +99,6 @@
 <h1>Find Your Next Stay...</h1>
 <h2>Explore Sri Lanka...</h2>
 
-
-</br></br>
-<form action="/search-places" method="POST",type="get",>
-        <input type="text" name="form-control border-0"  placeholder="Search Your destination" value="{{ isset($search) ? $search : ''}}">
-        <button type="submit" class="btn btn-primary px-4">Search</button>
-    </form>
 </center>
 
     <!-- Blog Start -->
@@ -154,21 +148,135 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/country-hotel1.jpg" alt="">
                         <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
+                            <h4 class="font-weight-bold mb-n1">9.1</h4>
+                            <small class="text-white text-uppercase">*</small>
                         </div>
                     </div>
                     <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
                         <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">CGR IT</a>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella Country HouseOpens in new window
+</a>
                     </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
+                    <h5 class="font-weight-medium mb-2">350m from centre</h5>
                     <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+                    <a class="btn btn-sm btn-primary py-2" href="/country">Read More</a>
                 </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/heaven1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">9.9</h4>
+                            <small class="text-white text-uppercase">*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Heaven's Edge By EHI</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">360m from Centre</h5>
+                    <p class="mb-4">Situated in Ella, within 4.9 km of Demodara Nine Arch Bridge and 49 km of Hakgala Botanical Garden, Winwood Ella features accommodation with a terrace and free WiFi as well as free private parking for...</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/heaven">Read More</a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/winwoodoooo.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">7.7</h4>
+                            <small class="text-white text-uppercase">*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Winwood Ella</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">0.8Km from Centre</h5>
+                    <p class="mb-4">Overlooking the stunning mountainous landscape, Heaven's Edge By EHI features an outdoor pool, a restaurant and rooms with views of the Ella Gap. Free WiFi is available in its public areas.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/winwood">Read More</a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">9.9</h4>
+                            <small class="text-white text-uppercase">*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Country HomesOpens in new window</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">400m from Centre</h5>
+                    <p class="mb-4"> Located 500 metre away from Ella Railway Station, Country Homes features rooms with a private balcony offering mountain views.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/countryHome">Read More</a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">10</h4>
+                            <small class="text-white text-uppercase">*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Green Nature Paradise EllaOpens in new window</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">1.4km from Centre</h5>
+                    <p class="mb-4">Set in Ella, 100 metres from Demodara Nine Arch Bridge, Green Nature Paradise Ella offers accommodation with a garden, free private parking and a terrace. This 3-star hotel offers a tour desk.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/green">Read More</a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">9.0</h4>
+                            <small class="text-white text-uppercase">*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Brisk Ella RetreatOpens in new window</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">2.3km from Centre</h5>
+                    <p class="mb-4">Located in Ella, 7.9 km from Demodara Nine Arch Bridge, Brisk Ella Retreat provides accommodation with a garden, free private parking and a restaurant.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/brisk">Read More</a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq9.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">8.5</h4>
+                            <small class="text-white text-uppercase">*</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">BBQ Hub by Ella</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">350m from Centre</h5>
+                    <p class="mb-4"> Boasting massage services and free WiFi, BBQ HUB Ella is set in Ella, 2 km from Demodara Nine Arch Bridge.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="/bbq">Read More</a>
+                </div>
+
+
             </div>
         </div>
     </div>

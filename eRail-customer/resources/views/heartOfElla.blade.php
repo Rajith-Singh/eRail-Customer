@@ -23,6 +23,74 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <Style>
+
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.centeralign{text-align: center;}
+.kk{
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  text-color: solid black;
+
+}
+#example1 {
+  background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+  padding: 15px;
+}
+.review-button {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.icon {
+  margin-right: 5px;
+  color:green;
+}
+
+.element{
+    width: 180px;
+  height: 90px;
+  background-color: Green;
+  animation-name: example;
+  animation-duration: 4s;
+  text-align: center;
+}
+@keyframes example {
+  from {background-color: Green;}
+  to {background-color: yellow;}
+}
+.book{
+    color:blue;
+}
+.mb-4{
+    text-align:center;
+}
+.contact{
+    width: 100px;
+  height: 70px;
+  background: green;
+  transition: width 2s;
+}
+.contact:hover{
+    width: 300px;
+}
+    </Style>
 </head>
 
 <body>
@@ -105,20 +173,21 @@
     <br><br>
 <center>
 <h2>Heart of Ella</h2>
-<p class="mb-4">Ambagaha Pathana, Kithalella, Ella, 90090 Ella, Sri Lanka </p>
+<p class="mb-4"><i class="fas fa-map-marker-alt"></i> Ella - Halpe estate Road, Ella, Sri Lanka </p>
 
-<br><p><h8>Situated in Ella, 5.6 km from Demodara Nine Arch Bridge, Heart of Ella features accommodation with a garden, free private parking, a terrace and a restaurant. The property is located 49 km from Hakgala Botanical Garden, 1.7 km from Ella Railway Station and 2.2 km from Ella Spice Garden. The accommodation provides a 24-hour front desk, airport transfers, room service and free WiFi throughout the property.</p>
 
-At the hotel, the rooms come with a desk. The private bathroom is fitted with a shower, free toiletries and a hairdryer. At Heart of Ella rooms are equipped with bed linen and towels.
 
-A Full English/Irish, Italian or Asian breakfast is available each morning at the property.</h8>
+<br><p class="kk"><h8>Situated in Ella, 5.6 km from Demodara Nine Arch Bridge, Heart of Ella features accommodation with a garden, free private parking, a terrace and a restaurant. The property is located 49 km from Hakgala Botanical Garden, 1.7 km from Ella Railway Station and 2.2 km from Ella Spice Garden.
+ The accommodation provides a 24-hour front desk, airport transfers, room service and free WiFi throughout the property.At the hotel, the rooms come with a desk. The private bathroom is fitted with a shower, free toiletries and a hairdryer.</h8></p>
 
-Little Adam's Peak is 4.3 km from the accommodation, while Ella Rock is 5.3 km from the property. The nearest airport is Mattala Rajapaksa International Airport, 86 km from Heart of Ella.
+<div class="contact">
+<h5><b> Contact No >>>> </b></h5>
+</div>
+<br>
+<h4>Check Availability   <a href="
+https://www.booking.com/searchresults.en-gb.html?aid=311984&label=heart-of-ella-6FFhn3AmivAnxwtrqetDkwS589580218556%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-146342137510%3Akwd-852801382015%3Alp9069429%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbSsBl3MCvHsD8UKUHIRFxY&gclid=Cj0KCQjw_5unBhCMARIsACZyzS3-R_HzkqpB723Qw0S2vq_P_bzLB3kqjZInDD16jkQCqUXgzXwaMyIaAhzCEALw_wcB&highlighted_hotels=5838676&redirected=1&city=-2216722&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=56b02ff106f05f83b3bb4453c51dd23b"/> >>>  <b class ="book"> Booking.com</b></h4>
 
-This is our guests' favourite part of Ella, according to independent reviews.
-
-Couples particularly like the location — they rated it 8.9 for a two-person trip.</br>
-                   
+  
  <!-- Blog Start -->
  <div class="container-fluid pt-5">
         <div class="container pt-5">
@@ -191,6 +260,8 @@ Couples particularly like the location — they rated it 8.9 for a two-person tr
     </div>
     <!-- Blog End -->
 </center>
+
+  
 
 
 

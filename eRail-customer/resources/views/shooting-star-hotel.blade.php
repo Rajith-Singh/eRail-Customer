@@ -25,6 +25,7 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
     <Style>
@@ -43,6 +44,229 @@
     font-weight: var(--bui_font_body_2_font-weight);
     line-height: var(--bui_font_body_2_line-height);
 }
+
+.page-section {
+    margin: 0 0 var(--bui_spacing_8x);
+    padding: 0
+}
+
+.page-section--inner-spacing {
+    margin: 0 0 var(--bui_spacing_4x)
+}
+
+.page-section--inner-spacing:last-child {
+    margin: 0
+}
+
+.d72139a9b7 {
+    padding-bottom: var(--bui_spacing_8x);
+    padding-top: var(--bui_spacing_8x)
+}
+
+.bf59b2ac71 {
+    margin: 0 0 var(--bui_spacing_8x)
+}
+
+.bf59b2ac71 .propertyBannerSpacing {
+    margin: 0 0 var(--bui_spacing_4x)
+}
+
+.bf59b2ac71 .propertyBannerSpacing:last-child {
+    margin: 0
+}
+
+.e5e0727360 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.e5e0727360 .ab06168e66 {
+    margin: 0 var(--bui_spacing_3x) var(--bui_spacing_3x) 0
+}
+
+.d30289c29b {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--bui_spacing_3x)
+}
+
+.d30289c29b .ab06168e66 {
+    flex: calc(50% - var(--bui_spacing_3x))
+}
+
+.a815ec762e {
+    align-items: center;
+    display: flex
+}
+
+.dc8024efa6 {
+    align-self: center;
+    display: flex
+}
+
+.f89eb8aa91 {
+    margin-right: var(--bui_spacing_1x)
+}
+
+.dc983c3da7 {
+    margin-right: var(--bui_spacing_2x)
+}
+
+.fa1e9d582b {
+    margin-right: var(--bui_spacing_3x)
+}
+
+.f42782b081 {
+    margin-right: var(--bui_spacing_4x)
+}
+
+.e2c5f6cdcb {
+    display: inline-flex;
+    flex-wrap: wrap
+}
+
+.bc43c871bd {
+    display: inline-block;
+    margin-right: var(--bui_spacing_1x)
+}
+
+.db312485ba {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.be469d76b3 {
+    border-bottom: 1px dashed var(--bui_color_foreground);
+    cursor: help
+}
+
+.ec45d4c6b1 {
+    margin-right: var(--bui_spacing_1x)
+}
+
+.ec45d4c6b1:last-child {
+    margin-right: 0
+}
+
+.e8f7126d89 {
+    align-items: baseline;
+    display: flex;
+    justify-content: center
+}
+
+.c923e7f5d7 {
+    margin-right: var(--bui_spacing_1x)
+}
+
+.a5dba5cdb1 {
+    margin: 0 0 var(--bui_spacing_4x)
+}
+
+.a44de3e8d8 {
+    margin-bottom: var(--bui_spacing_2x)
+}
+
+.a432050e3a {
+    align-items: center;
+    display: inline-flex
+}
+
+.fd367b77cb {
+    margin-right: var(--bui_spacing_3x)
+}
+
+.fb3b1ac073 {
+    margin-left: var(--bui_spacing_1x)
+}
+
+.f6fcaf193d {
+    margin-left: var(--bui_spacing_8x)
+}
+
+.f6fcaf193d .f6fcaf193d:not(:last-child) {
+    margin-bottom: var(--bui_spacing_4x)
+}
+
+.d40f93f300 {
+    margin-left: var(--bui_spacing_8x)
+}
+
+.fdaf6e9bd3 li {
+    margin-bottom: var(--bui_spacing_2x)
+}
+
+.f1e6195c8b {
+    display: block
+}
+
+.d4f5f4db7f {
+    display: inline-block;
+    margin-bottom: var(--bui_spacing_8x)
+}
+
+.c2a47324a8 {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.c2a47324a8 li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--bui_spacing_2x)
+}
+
+.e0c88bc3b3 {
+    font-weight: 700;
+    margin-right: var(--bui_spacing_3x)
+}
+
+@media (min-width: 576px) {
+    .e50d7535fa {
+        -moz-column-count:3;
+        column-count: 3;
+        -moz-column-gap: var(--bui_spacing_8x);
+        column-gap: var(--bui_spacing_8x)
+    }
+}
+
+.a6541fb018 {
+    margin-bottom: var(--bui_spacing_6x)
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.centeralign{text-align: center;}
+.kk{
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  text-color: solid black;
+  /* background-color: lightblue; */
+
+}
+.mb-4{
+    text-align:center;
+}
+.contact{
+    width: 100px;
+  height: 70px;
+  background: green;
+  transition: width 2s;
+}
+.contact:hover{
+    width: 300px;
+}
+/*# sourceMappingURL=https://istatic.booking.com/internal-static/capla/static/css/f3cb7e32.7d90c56d.chunk.css.map*/
+
     </Style>
 </head>
 
@@ -126,22 +350,30 @@
     <br><br>
 <center>
 <h2>Shooting Star Hotel</h2>
-<p class="mb-4">Ella - Halpe estate Road, Ella, Sri Lanka </p>
+<p class="mb-4"><i class="fas fa-map-marker-alt"></i> Ella - Halpe estate Road, Ella, Sri Lanka </p>
 
 <br>
 <p class="db29ecfbe2 b3efd73f69" align="center">Situated in Ella and only 4.3 km from Demodara Nine Arch Bridge, Shooting Star Homestay features accommodation with mountain views, free WiFi and free private parking. There is a private entrance at the homestay for the convenience of those who stay. The homestay has family rooms.</p>
 
-<span class="hp-desc-highlighted">Situated in Ella and only 4.3 km from Demodara Nine Arch Bridge, Shooting Star Homestay features accommodation with mountain views, free WiFi and free private parking. There is a private entrance at the homestay for the convenience of those who stay. The homestay has family rooms.</span>
+<span class="kk">Situated in Ella and only 4.3 km from Demodara Nine Arch Bridge, Shooting Star Homestay features accommodation with mountain views, free WiFi and free private parking. There is a private entrance at the homestay for the convenience of those who stay. The homestay has family rooms.</span>
 </br>
-<span class="hp-desc-highlighted" > The homestay offers a seating area with a flat-screen TV and a private bathroom with slippers, free toiletries and bidet. Every unit is fitted with a patio boasting an outdoor dining area. At the homestay, every unit comes with bed linen and towels.</span>                
+<span class="kk" > The homestay offers a seating area with a flat-screen TV and a private bathroom with slippers, free toiletries and bidet. Every unit is fitted with a patio boasting an outdoor dining area. At the homestay, every unit comes with bed linen and towels.</span>                
 </br>
-<span class="hp-desc-highlighted" > À la carte and Asian breakfast options with warm dishes, local specialities and fruits are available each morning at the homestay.</span>                
+<span class="kk"> À la carte and Asian breakfast options with warm dishes, local specialities and fruits are available each morning at the homestay.</span>                
  
 
-
+<div class="contact">
+<h5><b> Contact No >>>> </b></h5>
+</div><br>
 <h5 align="left"> Most popular Facilities</h5>
 
-
+<div data-testid="facility-list-most-popular-facilities" class="e5e0727360">
+    <div class="a815ec762e ab06168e66">
+        <span data-testid="facility-icon" class="b6dc9a9e69 dc8024efa6 fa1e9d582b e6c50852bd a29c17443f" aria-hidden="true"><svg xmlns="http:/www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M14.25 18.75a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0zm1.5 0a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0zm2.08-5.833a8.25 8.25 0 0 0-11.666 0 .75.75 0 0 0 1.06 1.06 6.75 6.75 0 0 1 9.546 0 .75.75 0 0 0 1.06-1.06zm3.185-3.182c-4.979-4.98-13.051-4.98-18.03 0a.75.75 0 1 0 1.06 1.06c4.394-4.393 11.516-4.393 15.91 0a.75.75 0 1 0 1.06-1.06zm2.746-3.603C17.136-.043 6.864-.043.24 6.132A.75.75 0 1 0 1.26 7.23c6.05-5.638 15.429-5.638 21.478 0a.75.75 0 0 0 1.022-1.098z"></path>
+        </svg></span>
+</div>
+</div>
 <!-- Blog Start -->
  <div class="container-fluid pt-5">
         <div class="container pt-5">

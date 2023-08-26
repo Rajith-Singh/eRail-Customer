@@ -70,12 +70,41 @@ Route::post('/approve/{id}', [eTabletController::class, 'updateTablet']);
 Route::get('/accomodation', function () {
     return view('accomodation');
 });
+Route::get('/filterAcc', function () {
+    return view('filterAccomodation');
+});
+
+
 
 Route::get('/heart', function () {
     return view('heartOfElla');
 });
 Route::get('/shoot', function () {
     return view('shooting-star-hotel');
+});
+Route::get('/country', function () {
+    return view('countryHotel');
+});
+Route::get('/heaven', function () {
+    return view('heavenHotel');
+});
+Route::get('/winwood', function () {
+    return view('winwood');
+});
+Route::get('/countryHome', function () {
+    return view('CountryHome');
+});
+Route::get('/green', function () {
+    return view('greenNature');
+});
+Route::get('/brisk', function () {
+    return view('briskHotel');
+});
+Route::get('/bbq', function () {
+    return view('bbqHut');
+});
+Route::get('/reviewHeart',function(){
+    return view('reviewHeartOfElla');
 });
 Route::get('/search-place',[accomodationController::class],'place');
 

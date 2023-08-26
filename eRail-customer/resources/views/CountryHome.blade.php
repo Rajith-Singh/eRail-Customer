@@ -23,6 +23,42 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <Style>
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.centeralign{text-align: center;}
+.kk{
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  text-color: solid black;
+  /* background-color: lightblue; */
+
+}
+.mb-4{
+    text-align:center;
+}
+.contact{
+    width: 100px;
+  height: 70px;
+  background: green;
+  transition: width 2s;
+}
+.contact:hover{
+    width: 300px;
+}
+
+    </Style>
 </head>
 
 <body>
@@ -98,59 +134,93 @@
 
 
 
+
+
+
+
+    <br><br>
 <center>
-<h5>Select category</h5>
-  <br>
-<i>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="img/dog.jpg" alt="Avatar" style="width:270px;height:250px;"><br>
-     <h5><b>Pets Allowed </b></h5>
-     <h5><b></b></h5>
+<h2>Country Homes
+</h2>
+<p class="mb-4"> <i class="fas fa-map-marker-alt"></i> Wellawaya Road Ella, 90090 Ella, Sri Lanka  </p>
+<br>
+<p class="kk">Located 500 metre away from Ella Railway Station, Country Homes features rooms with a private balcony offering mountain views. Other facilities include a tour desk and free Wi-Fi, which is available throughout.
+
+Country Homes is 1 km from Ravana Rock and 2  km from Little Adams Peak. Ravana Falls is situated 5 km away. On-site parking is possible.
+
+Comfortable rooms are provided with fans, ironing facilities and a seating area. Free toiletries and shower facilities are in an en suite bathroom.
+
+Guests can explore nearby attractions by hiring a bicycle or a car. For convenience, luggage storage and airport shuttle services are provided.
+
+For meals, enjoy local dishes at the on-site restaurant.
+
+This is our guests' favourite part of Ella, according to independent reviews.</p>
+            
+
+<div class="contact">
+<h5><b> Contact No >>>> </b></h5>
+</div><br>
+    <!-- Blog Start -->
+ <div class="container-fluid pt-5">
+        <div class="container pt-5">
+            <div class="row align-items-end mb-4">
+                <!-- <div class="col-lg-6">
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
+                    <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
+                </div> -->
+            
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome3.jpg" alt="">
+                    </div>   
+                   
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/countryHome8.jpg" alt="">
+                    </div>   
+                </div>
+               
+            
+            </div>
+        </div>
     </div>
-    <div class="flip-card-back">
-      <br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-    </div>
-  </div>
-</div>
-
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/down.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Down syndrome</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
-  </div>
-</div>
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/Hyper.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Hyperactive</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
-  </div>
-</div>
-  
-
+    <!-- Blog End -->
 </center>
+
 
 
 
@@ -240,6 +310,8 @@
         </div>
     </div>
     <!-- Footer End -->
+
+
 
 
     <!-- Back to Top -->

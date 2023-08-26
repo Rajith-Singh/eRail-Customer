@@ -23,6 +23,153 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<Style>
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.centeralign{text-align: center;}
+.kk{
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  text-color: solid black;
+  /* background-color: lightblue; */
+}
+
+.rating {
+  display: inline-block;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label:before {
+  content: "\2605"; /* Unicode character for a star */
+}
+
+.rating input[type="radio"]:checked ~ label {
+  color: gold; /* Change to your desired filled star color */
+}
+
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+  /* Style for the dropdown button */
+  .dropdown select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none; /* Remove default styling on some browsers */
+    cursor: pointer;
+  }
+
+  /* Style for dropdown options */
+  .dropdown select option {
+    padding: 10px;
+  }
+
+/* Reset some default styling */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the icon container */
+.icon-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Style the clickable icon */
+.clickable-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.button5 {border-radius: 50%;}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</Style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -98,59 +245,63 @@
 
 
 
+
+
+
+
+    <br><br>
 <center>
-<h5>Select category</h5>
-  <br>
-<i>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="img/dog.jpg" alt="Avatar" style="width:270px;height:250px;"><br>
-     <h5><b>Pets Allowed </b></h5>
-     <h5><b></b></h5>
-    </div>
-    <div class="flip-card-back">
-      <br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-    </div>
-  </div>
+<h2>Tell us, how was your stay?
+</h2>
+
+<form action="process_form.php" method="post">
+    <center>
+<label for="field2">How would you rate your experience?</label><br>
+<div class="rating">
+  <input type="radio" name="rating" id="star5" value="5"><label for="star5"></label>
+  <input type="radio" name="rating" id="star4" value="4"><label for="star4"></label>
+  <input type="radio" name="rating" id="star3" value="3"><label for="star3"></label>
+  <input type="radio" name="rating" id="star2" value="2"><label for="star2"></label>
+  <input type="radio" name="rating" id="star1" value="1"><label for="star1"></label>
 </div>
+<br><br>
 
+       
+<div class="dropdown">
+<label for="field2">How would you rate your experience?</label><br>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/down.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Down syndrome</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
+    <select>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <option value="option4">Option 4</option>
+    </select>
   </div>
-</div>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/Hyper.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Hyperactive</b></h4>
-     <h5><b></b></h5>
+       <br><br>
+       <label for="field3">Who did you go with?</label>
+       <div class="dropdown">
 
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
+    <select>
+      <option value="option1">Family</option>
+      <option value="option2">Friends</option>
+      <option value="option3">Solo</option>
+      <option value="option4">Couple</option>
+    </select>
   </div>
-</div>
+  <br><br>
+  <label for="field4">Write your review</label><br>
+  <input type="text" id="field4" name="field4"><br><br>
+
+  <button type="submit" class="button button4">Add your review</button>
   
+</center>
+
+    </form>
+
 
 </center>
+
 
 
 
@@ -240,6 +391,8 @@
         </div>
     </div>
     <!-- Footer End -->
+
+
 
 
     <!-- Back to Top -->

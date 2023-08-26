@@ -23,6 +23,39 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<Style>
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.centeralign{text-align: center;}
+.kk{
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  text-color: solid black;
+  /* background-color: lightblue; */
+}
+.mb-4{
+    text-align:center;
+}
+.contact{
+    width: 100px;
+  height: 70px;
+  background: green;
+  transition: width 2s;
+}
+.contact:hover{
+    width: 300px;
+}
+</Style>
 </head>
 
 <body>
@@ -98,59 +131,93 @@
 
 
 
+
+
+
+
+    <br><br>
 <center>
-<h5>Select category</h5>
-  <br>
-<i>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="img/dog.jpg" alt="Avatar" style="width:270px;height:250px;"><br>
-     <h5><b>Pets Allowed </b></h5>
-     <h5><b></b></h5>
+<h2>BBQ Hub Ella
+</h2>
+<p class="mb-4"> <i class="fas fa-map-marker-alt"></i>  Grand View Passara Road, 90090 Ella, Sri Lanka </p>
+<br>
+<p class="kk">Boasting massage services and free WiFi, BBQ HUB Ella is set in Ella, 2 km from Demodara Nine Arch Bridge. The property is situated 500 metres from Ella Spice Garden, 2 km from Little Adam's Peak and 3.4 km from Ella Rock. The in-house restaurant serves European cuisine.
+
+Rooms include a private bathroom, while some rooms are equipped with a balcony.
+
+A continental breakfast is served each morning at the property. Guests can engage in cooking classes at the property at an additional charge.
+
+Guests at the hotel will be able to enjoy activities in and around Ella, like cycling.
+
+This is our guests' favourite part of Ella, according to independent reviews.</p>
+           
+<div class="contact">
+<h5><b> Contact No >>>> </b></h5>
+</div><br>
+<h4>Check Availability   <a href="
+https://www.booking.com/searchresults.en-gb.html?aid=311984&label=heart-of-ella-6FFhn3AmivAnxwtrqetDkwS589580218556%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-146342137510%3Akwd-852801382015%3Alp9069429%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbSsBl3MCvHsD8UKUHIRFxY&gclid=Cj0KCQjw_5unBhCMARIsACZyzS3-R_HzkqpB723Qw0S2vq_P_bzLB3kqjZInDD16jkQCqUXgzXwaMyIaAhzCEALw_wcB&highlighted_hotels=5838676&redirected=1&city=-2216722&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=56b02ff106f05f83b3bb4453c51dd23b"/> >>>  <b class ="book"> Booking.com</b></h4>
+
+    <!-- Blog Start -->
+ <div class="container-fluid pt-5">
+        <div class="container pt-5">
+            <div class="row align-items-end mb-4">
+                <!-- <div class="col-lg-6">
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
+                    <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
+                </div> -->
+            
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq3.jpg" alt="">
+                    </div>   
+                   
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/bbq8.jpg" alt="">
+                    </div>   
+                </div>
+               
+            
+            </div>
+        </div>
     </div>
-    <div class="flip-card-back">
-      <br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-    </div>
-  </div>
-</div>
-
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/down.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Down syndrome</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
-  </div>
-</div>
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/Hyper.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Hyperactive</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
-  </div>
-</div>
-  
-
+    <!-- Blog End -->
 </center>
+
 
 
 
@@ -240,6 +307,8 @@
         </div>
     </div>
     <!-- Footer End -->
+
+
 
 
     <!-- Back to Top -->

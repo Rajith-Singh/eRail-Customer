@@ -23,6 +23,40 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <Style>
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.centeralign{text-align: center;}
+.kk{
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  text-color: solid black;
+  /* background-color: lightblue; */
+
+}
+.mb-4{
+    text-align:center;
+}
+.contact{
+    width: 100px;
+  height: 70px;
+  background: green;
+  transition: width 2s;
+}
+.contact:hover{
+    width: 300px;
+}
+</Style>
 </head>
 
 <body>
@@ -98,59 +132,91 @@
 
 
 
+
+
+
+
+    <br><br>
 <center>
-<h5>Select category</h5>
-  <br>
-<i>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="img/dog.jpg" alt="Avatar" style="width:270px;height:250px;"><br>
-     <h5><b>Pets Allowed </b></h5>
-     <h5><b></b></h5>
+<h2>Brisk Ella 
+</h2>
+<p class="mb-4"> <i class="fas fa-map-marker-alt"></i> Ella Road, 90090 Ella, Sri Lanka </p>
+<br>
+<p class="kk">Featuring a garden and views of city, Brisk Ella Retreat is a sustainable guest house located in Ella, 7.9 km from Demodara Nine Arch Bridge. There is an on-site restaurant and free private parking. The guest house provides mountain views, a sun terrace, a 24-hour front desk, and free WiFi is available throughout the property.
+
+All units come with a seating area, a flat-screen TV and a private bathroom with a hair dryer, walk-in shower, bidet and bath. A balcony with an outdoor dining area and garden views is offered in each unit. At the guest house, all units are fitted with bed linen and towels.
+
+The guest house serves a continental and Asian breakfast and breakfast in the room is also available. There is a coffee shop, and packed lunches are also available.
+
+Sightseeing tours are available near the property. Both a bicycle rental service and a car rental service are available at Brisk Ella Retreat, while hiking can be enjoyed nearby.
+
+Hakgala Botanical Garden is 49 km from the accommodation, while Horton Plains National Park is 49 km away. The nearest airport is Mattala Rajapaksa International, 90 km from Brisk Ella Retreat, and the property offers a paid airport shuttle service.</p>
+           
+
+<div class="contact">
+<h5><b> Contact No >>>> </b></h5>
+</div><br>
+    <!-- Blog Start -->
+ <div class="container-fluid pt-5">
+        <div class="container pt-5">
+            <div class="row align-items-end mb-4">
+                <!-- <div class="col-lg-6">
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
+                    <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
+                </div> -->
+            
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk4.jpg" alt="">
+                    </div>   
+                   
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk6.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/brisk9.jpg" alt="">
+                    </div>   
+                </div>
+               
+            
+            </div>
+        </div>
     </div>
-    <div class="flip-card-back">
-      <br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-    </div>
-  </div>
-</div>
-
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/down.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Down syndrome</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
-  </div>
-</div>
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    <img src="images-d/Hyper.jpg" alt="Avatar" style="width:200px;height:250px;"><br>
-     <h4><b>Hyperactive</b></h4>
-     <h5><b></b></h5>
-
-    </div>
-    <div class="flip-card-back">
-    <br><br><br><br>
-    <a href="/add-lessons" name="btn-1" class="btn btn-primary">Add Lessons</a>
-
-    </div>
-  </div>
-</div>
-  
-
+    <!-- Blog End -->
 </center>
+
 
 
 
@@ -240,6 +306,8 @@
         </div>
     </div>
     <!-- Footer End -->
+
+
 
 
     <!-- Back to Top -->
